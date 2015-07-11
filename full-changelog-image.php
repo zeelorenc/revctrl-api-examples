@@ -1,6 +1,6 @@
 <?php
 // Basic PHP script which shows the 5 (default) most recent revisions to a particular project as an image.
-// RevCTRL (c) 2015
+// RevCTRL (c) 2015 - forked from https://github.com/RevCTRL-Team/API-Examples
 
 // This page creates an image
 header("Content-Type: image/png");
