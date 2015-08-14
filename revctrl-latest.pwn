@@ -3,15 +3,15 @@
  *	 Pawn-side
 */
 
-#include 					<a_samp>
-#include 					<a_http>
-#include 					<zcmd>
+#include 			<a_samp>
+#include 			<a_http>
+#include 			<zcmd>
 
-#define PROJECT_I				1
-#define USER_PROJEC				"IrresistibleDev/SF-CNR" // you can grab it off the API but still it's tedious
-#define API_UR					"irresistiblegaming.com/rc_updates.php?id=" #PROJECT_ID
+#define PROJECT_I		1
+#define USER_PROJEC		"IrresistibleDev/SF-CNR" // you can grab it off the API but still it's tedious
+#define API_UR			"irresistiblegaming.com/rc_updates.php?id=" #PROJECT_ID
 
-#define DIALOG_CHANGE				4000 // change if you want
+#define DIALOG_CHANGE		4000 // change if you want
 
 // Forward
 
