@@ -20,9 +20,9 @@ public OnRevCTRLHTTPResponse(index, response_code, data[]);
 // Http Response Callback (OnRevCTRLHTTPResponse)
 
 public OnRevCTRLHTTPResponse(index, response_code, data[]) {
-    if (response_code == 200) {
- 		return ShowPlayerDialog(index, DIALOG_CHANGES, DIALOG_STYLE_MSGBOX, "{00CCFF}" #USER_PROJECT "{FFFFFF} - RevCTRL", "{FFFFFF}An error has occurred, try again later.", "Okay", "");
-    }
+	if (response_code == 200) {
+		return ShowPlayerDialog(index, DIALOG_CHANGES, DIALOG_STYLE_MSGBOX, "{00CCFF}" #USER_PROJECT "{FFFFFF} - RevCTRL", "{FFFFFF}An error has occurred, try again later.", "Okay", "");
+	}
 	return ShowPlayerDialog(index, DIALOG_CHANGES, DIALOG_STYLE_MSGBOX, "{00CCFF}" #USER_PROJECT "{FFFFFF} - RevCTRL", data, "Okay", "");
 }
 
